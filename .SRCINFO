@@ -1,0 +1,15 @@
+pkgbase = android-input-utils
+	pkgdesc = Android input utilities.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-input-utils
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = libcrash-bash
+	source = android-input-utils-c91711297720e0b4df7b634284bf4e0fa38d399a.zip::https://github.com/themartiancompany/android-input-utils/archive/c91711297720e0b4df7b634284bf4e0fa38d399a.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = dfa58b8994ffa7f828426d0059b3ec6a92facfe9208108f41273b60483f5e2e4
+
+pkgname = android-input-utils
