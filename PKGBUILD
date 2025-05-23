@@ -23,6 +23,7 @@
 # Maintainer: Truocolo <truocolo@0x6E5163fC4BFc1511Dbe06bB605cc14a3e462332b>
 # Maintainer: Pellegrino Prevete (dvorak) <pellegrinoprevete@gmail.com>
 # Maintainer: Pellegrino Prevete (dvorak) <dvorak@0x87003Bd6C074C713783df04f36517451fF34CBEf>
+# Maintainer: Pellegrino Prevete (dvorak) <dvorak@0x6E5163fC4BFc1511Dbe06bB605cc14a3e462332b>
 
 _os="$( \
   uname \
@@ -87,7 +88,10 @@ if [[ "${_offline}" == "true" ]]; then
 fi
 _evmfs_network="100"
 _evmfs_address="0x69470b18f8b8b5f92b48f6199dcb147b4be96571"
+# Dvorak
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
+# Dvorak
+_evmfs="0x6E5163fC4BFc1511Dbe06bB605cc14a3e462332b"
 _archive_sum="dfa58b8994ffa7f828426d0059b3ec6a92facfe9208108f41273b60483f5e2e4"
 _evmfs_archive_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sum}"
 _evmfs_archive_src="${_tarname}.zip::${_evmfs_archive_uri}"
